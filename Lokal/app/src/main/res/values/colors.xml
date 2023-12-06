@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button_active">#F1F3FF</color>
+    <color name="button_de_active">#00000000</color>
+    <color name="button_carousel_active">#FF000000</color>
+    <color name="button_carousel_inactive">#00BFA5</color>
+</resources>
