@@ -15,5 +15,6 @@ class Constants {
 
         const val ratingKey = 2
         const val stockKey = 3
+        const val baseUrl = "https://dummyjson.com/"
     }
 }

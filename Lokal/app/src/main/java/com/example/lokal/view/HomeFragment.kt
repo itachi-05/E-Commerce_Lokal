@@ -54,7 +54,7 @@ class HomeFragment : Fragment(), SortBottomSheet.SortBSListener {
     private fun getProductsViewModel(): ProductsViewModel {
         return ViewModelProvider(
             this, ProductsViewModel.Companion.Factory(
-                Ecommerce.getInstance().getInjector().getProductsListUseCase()
+                Ecommerce.getInjector().getProductsListUseCase()
             )
         )[ProductsViewModel::class.java]
     }
